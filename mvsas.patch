@@ -1,0 +1,7 @@
+--- drivers/scsi/mvsas/mv_init.c	2017-11-24 07:33:43.000000000 +0000
++++ drivers/scsi/mvsas/mv_init.c	2017-12-23 17:04:33.908341111 +0000
+@@ -718,2 +718,4 @@ static struct pci_device_id mvs_pci_tabl
+ 
++	{ PCI_VDEVICE(TTI, 0x2640), chip_6440}, /* RocketRAID 2640x4 */
++
+ 	{ }	/* terminate list */
